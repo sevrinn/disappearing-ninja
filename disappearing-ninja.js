@@ -2,6 +2,9 @@ $(document).ready(function () {
   $('.pika').click(function () {
     $(this).fadeOut();
   });
+  $('.restore').click(function () {
+    $('.pika').show();
+  });
 });
 
 //1: makes sure document is ready before running code inside
